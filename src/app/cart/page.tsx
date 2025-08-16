@@ -45,9 +45,9 @@ export default function CartPage() {
             <div className="text-lg font-semibold mb-2">合計 / Total</div>
             <div className="text-2xl font-bold text-rose-700">NT$ {total}</div>
             <div className="text-xs text-slate-500 mt-1">* 僅為預估價格，稅費與折扣於結帳時顯示。</div>
-            <Link href="/checkout" className="block mt-4 rounded-lg bg-slate-900 text-white text-center py-2 pointer-events-none opacity-60" aria-disabled>
-              下一步：結帳（第 5 步啟用）
-            </Link>
+<a href="/checkout" className="block mt-4 rounded-lg bg-slate-900 text-white text-center py-2">
+  前往結帳 / Go to Checkout
+</a>
           </aside>
         </div>
       )}
