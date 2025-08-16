@@ -1,0 +1,32 @@
+import { Section } from '@/components/Section';
+import { TeamGrid } from '@/components/TeamGrid';
+import { team } from '@/data/team';
+
+export const metadata = {
+  title: '關於我們 About Us | Kodomo 2.0',
+  description: '品牌故事 / 理念 / 環境風格 / 團隊介紹'
+};
+
+# 關於我們 <span className="ml-2 text-base text-slate-500">About Us</span>
+
+<Section titleCn="品牌故事" titleEn="Brand Story">
+  Kodomo 代表著「家的味道與分享」。我們從一碗最簡單的家常飯開始，慢慢發展出今天的菜單。
+  <br />
+  <span className="text-slate-600">Kodomo means sharing everyday comfort food. We started from one humble bowl and grew into today's selection.</span>
+</Section>
+
+<Section titleCn="餐廳理念" titleEn="Our Philosophy">
+  新鮮、透明、友善是我們的三個關鍵字：食材來源公開、調味不過度、對環境與人都友好。
+  <br />
+  <span className="text-slate-600">Freshness, transparency, and kindness—clean sourcing, balanced seasoning, and care for people & planet.</span>
+</Section>
+
+<Section titleCn="環境與風格" titleEn="Space & Design">
+  使用溫暖木質與柔和色調，營造輕鬆用餐節奏；桌距舒適，適合家庭與朋友聚會。
+  <br />
+  <span className="text-slate-600">Warm wood and soft tones create a relaxed rhythm—cozy spacing for families and friends.</span>
+</Section>
+
+<Section titleCn="團隊介紹" titleEn="Our Team">
+  <TeamGrid members={team} />
+</Section>
