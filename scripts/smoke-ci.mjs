@@ -5,7 +5,7 @@ import path from 'node:path';
 const OUTDIR = 'artifacts';
 fs.mkdirSync(OUTDIR, { recursive: true });
 
-const ports = [3000];
+const ports = [3001];
 const name = process.env.CODESPACE_NAME;
 function previewUrl(port) {
   // Always use localhost in Codespaces

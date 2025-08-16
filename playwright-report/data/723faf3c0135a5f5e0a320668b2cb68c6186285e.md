@@ -1,0 +1,29 @@
+# Page snapshot
+
+```yaml
+- main:
+  - heading "線上菜單 Menu" [level=1]
+  - heading "人氣推薦 / Popular" [level=2]
+  - text: 唐揚雞定食 Karaage Set 牛丼 Beef Don
+  - button "全部"
+  - button "飯類"
+  - button "麵類"
+  - button "小吃"
+  - button "飲品"
+  - button "套餐"
+  - link "Curry Rice 咖哩飯Curry Rice NT$ 180 濃郁日式咖哩醬，馬鈴薯與紅蘿蔔。":
+    - /url: /menu/curry-rice
+    - img "Curry Rice"
+    - heading "咖哩飯Curry Rice" [level=3]
+    - text: NT$ 180
+    - paragraph: 濃郁日式咖哩醬，馬鈴薯與紅蘿蔔。
+  - button "加入購物車（下一步開啟）" [disabled]
+  - link "Beef Don 牛丼Beef Don NT$ 200 洋蔥與薄切牛肉拌甜鹹醬汁。":
+    - /url: /menu/beef-don
+    - img "Beef Don"
+    - heading "牛丼Beef Don" [level=3]
+    - text: NT$ 200
+    - paragraph: 洋蔥與薄切牛肉拌甜鹹醬汁。
+  - button "加入購物車（下一步開啟）" [disabled]
+- alert
+```

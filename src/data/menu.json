@@ -1,0 +1,88 @@
+{
+  "categories": ["飯類", "麵類", "小吃", "飲品", "套餐"],
+  "items": [
+    {
+      "id": "karaage-set",
+      "nameCn": "唐揚雞定食",
+      "nameEn": "Karaage Set",
+      "category": "套餐",
+      "price": 220,
+      "descCn": "外脆內嫩的日式炸雞，附白飯與味噌湯。",
+      "descEn": "Crispy Japanese fried chicken with rice and miso soup.",
+      "img": "/img/placeholder.svg",
+      "popular": true
+    },
+    {
+      "id": "curry-rice",
+      "nameCn": "咖哩飯",
+      "nameEn": "Curry Rice",
+      "category": "飯類",
+      "price": 180,
+      "descCn": "濃郁日式咖哩醬，馬鈴薯與紅蘿蔔。",
+      "descEn": "Rich Japanese curry with potatoes and carrots.",
+      "img": "/img/placeholder.svg"
+    },
+    {
+      "id": "beef-don",
+      "nameCn": "牛丼",
+      "nameEn": "Beef Don",
+      "category": "飯類",
+      "price": 200,
+      "descCn": "洋蔥與薄切牛肉拌甜鹹醬汁。",
+      "descEn": "Sweet-savory beef with onions over rice.",
+      "img": "/img/placeholder.svg",
+      "popular": true
+    },
+    {
+      "id": "ramen-shoyu",
+      "nameCn": "醬油拉麵",
+      "nameEn": "Shoyu Ramen",
+      "category": "麵類",
+      "price": 190,
+      "descCn": "清爽醬油湯頭與彈牙麵條。",
+      "descEn": "Light soy-based broth with springy noodles.",
+      "img": "/img/placeholder.svg"
+    },
+    {
+      "id": "udon-tempura",
+      "nameCn": "天婦羅烏龍麵",
+      "nameEn": "Tempura Udon",
+      "category": "麵類",
+      "price": 200,
+      "descCn": "柴魚高湯與現炸天婦羅。",
+      "descEn": "Dashi broth with freshly fried tempura.",
+      "img": "/img/placeholder.svg"
+    },
+    {
+      "id": "gyoza-6",
+      "nameCn": "煎餃（6顆）",
+      "nameEn": "Gyoza (6pc)",
+      "category": "小吃",
+      "price": 80,
+      "descCn": "手工煎餃，外皮金黃酥脆。",
+      "descEn": "Handmade pan-fried dumplings, crispy skin.",
+      "img": "/img/placeholder.svg"
+    },
+    {
+      "id": "green-tea",
+      "nameCn": "綠茶",
+      "nameEn": "Green Tea",
+      "category": "飲品",
+      "price": 50,
+      "descCn": "無糖冷泡綠茶。",
+      "descEn": "Unsweetened cold-brew green tea.",
+      "img": "/img/placeholder.svg",
+      "vegan": true
+    },
+    {
+      "id": "lemon-soda",
+      "nameCn": "檸檬蘇打",
+      "nameEn": "Lemon Soda",
+      "category": "飲品",
+      "price": 60,
+      "descCn": "清爽氣泡飲。",
+      "descEn": "Refreshing lemon soda.",
+      "img": "/img/placeholder.svg"
+    }
+  ]
+}
