@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "corepack enable && pnpm -v || npm i -g pnpm && pnpm i --no-optional || true",
+  "containerEnv": {
+    "TZ": "Asia/Tokyo",
+    "PLAYWRIGHT_BROWSERS_PATH": "0"
+  },
+  "forwardPorts": [3000, 5173],
+  "portsAttributes": {
+    "3000": { "label": "web" },
+    "5173": { "label": "vite" }
+  }
+}
