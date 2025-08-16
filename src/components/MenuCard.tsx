@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { MenuItem } from '../types/menu';
+import { AddToCartButton } from './AddToCartButton';
 
 export function MenuCard({ item }: { item: MenuItem }) {
   return (
@@ -18,17 +19,17 @@ export function MenuCard({ item }: { item: MenuItem }) {
           </div>
           {item.descCn && <p className="text-sm text-slate-600 mt-1 line-clamp-2">{item.descCn}</p>}
         </div>
-      </Link>
-      {/* Cart placeholder (to be implemented in step 4) */}
-      <div className="p-4 pt-0">
-        <button
-          aria-disabled
-          onClick={(e) => { e.preventDefault(); alert('購物車功能將於下一步開啟 / Cart will be enabled in next step.'); }}
-          className="w-full rounded-lg border py-2 text-sm hover:bg-white"
-        >
-          加入購物車（下一步開啟）
-        </button>
-      </div>
+        </Link>
+        <div className="p-4 pt-0" onClick={(e) => e.stopPropagation()}>
+          <AddToCartButton
+            id={item.id}
+            nameCn={item.nameCn}
+            nameEn={item.nameEn}
+            price={item.price}
+            img={item.img}
+            variant="ghost"
+          />
+        </div>
     </div>
   );
 }

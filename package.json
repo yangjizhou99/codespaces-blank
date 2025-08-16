@@ -4,6 +4,8 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest run",
+    "test:unit": "vitest run tests/unit/",
+    "test:e2e": "next dev & playwright test --reporter=html --trace=on tests/e2e/",
     "e2e": "playwright test --reporter=html --trace=on",
     "e2e:show": "playwright show-report",
     "dev:check": "node scripts/smoke-ci.mjs"

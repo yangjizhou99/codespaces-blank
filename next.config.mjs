@@ -8,7 +8,14 @@ const withMDX = createMDX({
 const nextConfig = {
   experimental: { mdxRs: true },
   // pageExtensions 在 App Router 不是必需，但保留兼容
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx']
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  compilerOptions: {
+    paths: {
+      '@/lib': ['src/lib'],
+      '@/components': ['src/components'],
+      '@/types': ['src/types']
+    }
+  }
 };
 
 export default withMDX(nextConfig);
